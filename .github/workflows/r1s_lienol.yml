@@ -1,4 +1,4 @@
-name: r1s Lienol版openwrt1
+name: r1s Lienol版openwrt
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    if: github.repository == 'klever1988/nanopi-openwrt'
+    if: github.repository == 'loopx111/nanopi-openwrt'
 
     steps:
 
